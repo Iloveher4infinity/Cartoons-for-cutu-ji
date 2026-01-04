@@ -46,17 +46,17 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
+max-width: 900px;
+margin: 0 auto;
 }
-
-/* CARD */
 .card {
   background: var(--white);
   border-radius: 22px;
-  box-shadow: 0 10px 22px rgba(255, 182, 193, 0.45);
+  box-shadow: 0 10px 22px rgba(255, 182, 193, 0.6);
   overflow: hidden;
   transition: transform 0.2s;
+  width: 100%;
 }
-
 .card:hover {
   transform: translateY(-4px);
 }
@@ -82,14 +82,4 @@ footer {
   color: #999;
 }
 /* layout for 2 cards per row */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
-}
 
-.card {
-  width: 47%;
-  margin-bottom: 30px;
-}
