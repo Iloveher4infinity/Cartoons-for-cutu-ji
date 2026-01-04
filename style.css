@@ -81,10 +81,10 @@ footer {
   font-size: 12px;
   color: #999;
 }
+/* Cards 2×2 grid */
 .grid {
-    display: grid;                 /* make it a grid container */
-    grid-template-columns: 1fr 1fr; /* 2 columns */
-    justify-content: space-between; /* push cards to left & right edges */
-    gap: 50px;                     /* vertical space between rows */
-    margin: 30px;                   /* space around grid from edges of page */
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 columns */
+  gap: 20px; /* space between cards */
+  padding: 10px; /* space inside the grid from edges */
 }
