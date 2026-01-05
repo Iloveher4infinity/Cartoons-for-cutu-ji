@@ -82,4 +82,9 @@ footer {
   color: #999;
 }
 /* layout for 2 cards per row */
-
+/* Mobile fix: force 2 cards per row */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
